@@ -1,0 +1,12 @@
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\bin\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.deps.json
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\bin\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.dll
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\bin\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.pdb
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.AssemblyInfoInputs.cache
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.AssemblyInfo.cs
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.csproj.CoreCompileInputs.cache
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.dll
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.pdb
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.csprojAssemblyReference.cache
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\bin\Debug\netcoreapp3.1\MedicalLab.Entity.dll
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\bin\Debug\netcoreapp3.1\MedicalLab.Entity.pdb
+C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.csproj.CopyComplete

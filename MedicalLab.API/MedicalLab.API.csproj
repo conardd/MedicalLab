@@ -4,5 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MedicalLab.CommonService\MedicalLab.CommonService.csproj" />
+    <ProjectReference Include="..\MedicalLab.Model\MedicalLab.Model.csproj" />
+    <ProjectReference Include="..\MedicalLab.ServiceInterface\MedicalLab.ServiceInterface.csproj" />
+    <ProjectReference Include="..\MedicalLab.Service\MedicalLab.Service.csproj" />
+  </ItemGroup>
+
 
 </Project>
