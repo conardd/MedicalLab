@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MedicalLab.CommonService\MedicalLab.CommonService.csproj" />
+    <ProjectReference Include="..\MedicalLab.Entity\MedicalLab.Entity.csproj" />
+    <ProjectReference Include="..\MedicalLab.Model\MedicalLab.Model.csproj" />
+    <ProjectReference Include="..\MedicalLab.RepositoryInterface\MedicalLab.RepositoryInterface.csproj" />
+    <ProjectReference Include="..\MedicalLab.Repository\MedicalLab.Repository.csproj" />
+    <ProjectReference Include="..\MedicalLab.ServiceInterface\MedicalLab.ServiceInterface.csproj" />
+  </ItemGroup>
 
 </Project>
