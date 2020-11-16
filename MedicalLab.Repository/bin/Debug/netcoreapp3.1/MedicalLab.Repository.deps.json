@@ -774,6 +774,9 @@
         }
       },
       "MedicalLab.Model/1.0.0": {
+        "dependencies": {
+          "MedicalLab.Entity": "1.0.0"
+        },
         "runtime": {
           "MedicalLab.Model.dll": {}
         }

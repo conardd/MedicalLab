@@ -90,7 +90,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
+                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,7 +1,3 @@
-C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.csprojAssemblyReference.cache
-C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.AssemblyInfoInputs.cache
-C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.AssemblyInfo.cs
-C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.csproj.CoreCompileInputs.cache
 C:\Gang\MedicalLab\MedicalLab.Service\bin\Debug\netcoreapp3.1\MedicalLab.Service.deps.json
 C:\Gang\MedicalLab\MedicalLab.Service\bin\Debug\netcoreapp3.1\MedicalLab.Service.dll
 C:\Gang\MedicalLab\MedicalLab.Service\bin\Debug\netcoreapp3.1\MedicalLab.Service.pdb
@@ -17,6 +13,10 @@ C:\Gang\MedicalLab\MedicalLab.Service\bin\Debug\netcoreapp3.1\MedicalLab.Model.p
 C:\Gang\MedicalLab\MedicalLab.Service\bin\Debug\netcoreapp3.1\MedicalLab.RepositoryInterface.pdb
 C:\Gang\MedicalLab\MedicalLab.Service\bin\Debug\netcoreapp3.1\MedicalLab.Repository.pdb
 C:\Gang\MedicalLab\MedicalLab.Service\bin\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.pdb
+C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.csprojAssemblyReference.cache
+C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.AssemblyInfoInputs.cache
+C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.AssemblyInfo.cs
 C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.csproj.CopyComplete
 C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.dll
 C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.pdb
+C:\Gang\MedicalLab\MedicalLab.Service\obj\Debug\netcoreapp3.1\MedicalLab.Service.csproj.CoreCompileInputs.cache

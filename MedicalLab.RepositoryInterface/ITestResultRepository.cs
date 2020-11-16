@@ -10,17 +10,11 @@ namespace MedicalLab.RepositoryInterface
     /// </summary>
     public interface ITestResultRepository
     {
-        ///// <summary>
-        ///// 
-        ///// </summary>
-        ///// <returns></returns>
-        //List<TestReport> GetAllTestType();
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="userName"></param>
         /// <returns></returns>
-        TestResult Get(string userName);
+        List<TestResult> Get();
         /// <summary>
         /// 
         /// </summary>

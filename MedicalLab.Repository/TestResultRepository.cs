@@ -1,4 +1,5 @@
 ﻿using MedicalLab.Entity;
+using MedicalLab.Model;
 using MedicalLab.RepositoryInterface;
 using MongoDB.Driver;
 using System;
@@ -15,19 +16,19 @@ namespace MedicalLab.Repository
 
         private const string CollectionName = "reports";
         private readonly IMongoCollection<TestResult> results;
-        //private readonly IMongoCollection<TestReport> reports;
-        public TestResultRepository(IMongoDBClient _client)
+        
+        public TestResultRepository(DataBaseSettings settings)
         {
-            var client = _client.CreateClient();
-            results = client.GetCollection<TestResult>(CollectionName);
+            var client = new MongoClient(settings.ConnectionString);
+            var dbClient = client.GetDatabase(settings.DatabaseName);
+            results = dbClient.GetCollection<TestResult>(CollectionName);
         }
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="userName"></param>
         /// <returns></returns>
-        public TestResult Get(string userName) => results.Find(r => r.UserName == userName).SingleOrDefault();
+        public List<TestResult> Get() => results.Find(m=>m.FirstName != null).ToList();
 
         /// <summary>
         /// 
