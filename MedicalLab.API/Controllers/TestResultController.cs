@@ -16,15 +16,15 @@ namespace MedicalLab.API.Controllers
     [ApiController]
     public class TestResultController : ControllerBase
     {
-        private readonly ITestResultService service;
+        //private readonly ITestResultService service;
         /// <summary>
         /// 
         /// </summary>
         /// <param name="testResultService"></param>
-        public TestResultController(ITestResultService testResultService)
-        {
-            service = testResultService;
-        }
+        //public TestResultController(ITestResultService testResultService)
+        //{
+        //    service = testResultService;
+        //}
         /// <summary>
         /// 
         /// </summary>
@@ -32,7 +32,8 @@ namespace MedicalLab.API.Controllers
         [HttpGet]
         public ApiResponse Get()
         {
-            return service.Get();            
+            return null;
+            //return service.Get();            
         }
         /// <summary>
         /// 
@@ -41,8 +42,9 @@ namespace MedicalLab.API.Controllers
         /// <returns></returns>
         [HttpPost]
         public ApiResponse Post([FromBody] TestResultModel payLoad)
-        {            
-            return service.Add(payLoad.TestResult);
+        {
+            return null;
+            //return service.Add(payLoad.TestResult);
         }
     }
 }

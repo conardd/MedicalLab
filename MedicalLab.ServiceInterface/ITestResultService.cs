@@ -1,5 +1,4 @@
 ﻿using MedicalLab.Entity;
-using MedicalLab.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,22 +11,22 @@ namespace MedicalLab.ServiceInterface
         /// 
         /// </summary>        
         /// <returns></returns>
-        ApiResponse Get();
+        void Get();
         /// <summary>
         /// 
         /// </summary>
         /// <param name="report"></param>
-        ApiResponse Add(TestResult report);
+        TestResult Add(TestResult report);
         /// <summary>
         /// 
         /// </summary>
         /// <param name="report"></param>
-        ApiResponse Update(TestResult report);
+        TestResult Update(TestResult report);
         /// <summary>
         /// 
         /// </summary>
         /// <param name="report"></param>
         /// <param name=""></param>
-        ApiResponse Remove(TestResult report);
+        TestResult Remove(TestResult report);
     }
 }

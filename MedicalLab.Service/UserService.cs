@@ -1,5 +1,4 @@
 ﻿using MedicalLab.Entity;
-using MedicalLab.Model;
 using MedicalLab.RepositoryInterface;
 using MedicalLab.ServiceInterface;
 using System;
@@ -71,28 +70,32 @@ namespace MedicalLab.Service
             repo.Update(user);
         }
 
-        public ApiResponse Login(LoginModel login)
+        public User Login(string userName, string password)
         {
-            var result = new ApiResponse() { Result = true };
-            var user = repo.GetUserByName(login.UserName);
+            //var result = new ApiResponse() { Result = true };
+            var user = repo.GetUserByName(userName);
 #if DEBUG
-            user = new User() { UserName = login.UserName, Roles = "employee", Email = "tester@test.com", Password = login.Password , Active = true};
+            user = new User() { UserName = userName, Role = "employee", Email = "tester@test.com", Password = password, Active = true};
 #endif
-            result.Result = user != null && user.Password == login.Password && user.Active;
-            if (result.Result)
-                result.Value = generateJwtToken(user);
-            else
-                result.Message = "user is not valid";
-            return result;
+            //result.Result = user != null && user.Password == password && user.Active;
+            //if (result.Result)
+            //    result.Value = generateJwtToken(user);
+            //else
+            //    result.Message = "user is not valid";
+            return user;
         }
-
-        private string generateJwtToken(User user)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public string GenerateJwtToken(User user)
         {
             // generate token that is valid for 7 days
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("codechallengecodechallengecodechallenge");
             var claims = new ClaimsIdentity(new[] { new Claim("email", user.Email),
-                                                    new Claim("roles",user.Roles ),
+                                                    new Claim("roles",user.Role ),
                                                     new Claim("userName",user.UserName)});
 
             var tokenDescriptor = new SecurityTokenDescriptor

@@ -9,7 +9,6 @@
       "MedicalLab.Repository/1.0.0": {
         "dependencies": {
           "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0",
           "MedicalLab.RepositoryInterface": "1.0.0",
           "MongoDB.Driver": "2.11.4"
         },
@@ -773,18 +772,9 @@
           "MedicalLab.Entity.dll": {}
         }
       },
-      "MedicalLab.Model/1.0.0": {
-        "dependencies": {
-          "MedicalLab.Entity": "1.0.0"
-        },
-        "runtime": {
-          "MedicalLab.Model.dll": {}
-        }
-      },
       "MedicalLab.RepositoryInterface/1.0.0": {
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0"
+          "MedicalLab.Entity": "1.0.0"
         },
         "runtime": {
           "MedicalLab.RepositoryInterface.dll": {}
@@ -1366,11 +1356,6 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "MedicalLab.Entity/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MedicalLab.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

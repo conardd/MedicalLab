@@ -1,5 +1,4 @@
 ﻿using MedicalLab.Entity;
-using MedicalLab.Model;
 using MedicalLab.Repository;
 using MedicalLab.RepositoryInterface;
 using MedicalLab.ServiceInterface;
@@ -22,66 +21,66 @@ namespace MedicalLab.Service
             
         }
 
-        public ApiResponse Get()
+        public void Get()
         {
-            var response = new ApiResponse() { Result = true };
-            try
-            {
-                var list = repo.Get();
+            //var response = new ApiResponse() { Result = true };
+            //try
+            //{
+            //    var list = repo.Get();
                 
-                response.Value = list;
-            }
-            catch (Exception ex)
-            {
-                response.Result = false;
-                response.Message = ex.ToString();
-            }
-            return response;
+            //    response.Value = list;
+            //}
+            //catch (Exception ex)
+            //{
+            //    response.Result = false;
+            //    response.Message = ex.ToString();
+            //}
+            //return response;
         }
 
-        public ApiResponse Add(TestResult report)
+        public TestResult Add(TestResult report)
         {
-            var response = new ApiResponse() { Result = true };
-            try
-            {
-                repo.Add(report);                
-            }
-            catch (Exception ex)
-            {
-                response.Result = false;
-                response.Message = ex.ToString();
-            }
-            return response;
+            //var response = new ApiResponse() { Result = true };
+            //try
+            //{
+            //    repo.Add(report);                
+            //}
+            //catch (Exception ex)
+            //{
+            //    response.Result = false;
+            //    response.Message = ex.ToString();
+            //}
+            return report;
         }
 
-        public ApiResponse Update(TestResult report)
+        public TestResult Update(TestResult report)
         {
-            var response = new ApiResponse() { Result = true };
-            try
-            {
-                repo.Update(report);
-            }
-            catch (Exception ex)
-            {
-                response.Result = false;
-                response.Message = ex.ToString();
-            }
-            return response;
+            //var response = new ApiResponse() { Result = true };
+            //try
+            //{
+            //    repo.Update(report);
+            //}
+            //catch (Exception ex)
+            //{
+            //    response.Result = false;
+            //    response.Message = ex.ToString();
+            //}
+            return report;
         }
 
-        public ApiResponse Remove(TestResult report)
+        public TestResult Remove(TestResult report)
         {
-            var response = new ApiResponse() { Result = true };
-            try
-            {
-                repo.Remove(report);
-            }
-            catch (Exception ex)
-            {
-                response.Result = false;
-                response.Message = ex.ToString();
-            }
-            return response;
+            //var response = new ApiResponse() { Result = true };
+            //try
+            //{
+            //    repo.Remove(report);
+            //}
+            //catch (Exception ex)
+            //{
+            //    response.Result = false;
+            //    response.Message = ex.ToString();
+            //}
+            return report;
         }
     }
 }

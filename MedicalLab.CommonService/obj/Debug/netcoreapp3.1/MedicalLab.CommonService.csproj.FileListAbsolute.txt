@@ -6,4 +6,3 @@ C:\Gang\MedicalLab\MedicalLab.CommonService\obj\Debug\netcoreapp3.1\MedicalLab.C
 C:\Gang\MedicalLab\MedicalLab.CommonService\obj\Debug\netcoreapp3.1\MedicalLab.CommonService.csproj.CoreCompileInputs.cache
 C:\Gang\MedicalLab\MedicalLab.CommonService\obj\Debug\netcoreapp3.1\MedicalLab.CommonService.dll
 C:\Gang\MedicalLab\MedicalLab.CommonService\obj\Debug\netcoreapp3.1\MedicalLab.CommonService.pdb
-C:\Gang\MedicalLab\MedicalLab.CommonService\obj\Debug\netcoreapp3.1\MedicalLab.CommonService.csprojAssemblyReference.cache

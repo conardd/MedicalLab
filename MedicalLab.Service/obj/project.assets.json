@@ -1376,25 +1376,11 @@
           "bin/placeholder/MedicalLab.Entity.dll": {}
         }
       },
-      "MedicalLab.Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "MedicalLab.Entity": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MedicalLab.Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MedicalLab.Model.dll": {}
-        }
-      },
       "MedicalLab.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0",
           "MedicalLab.RepositoryInterface": "1.0.0",
           "MongoDB.Driver": "2.11.4"
         },
@@ -1409,8 +1395,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0"
+          "MedicalLab.Entity": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MedicalLab.RepositoryInterface.dll": {}
@@ -1423,8 +1408,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0"
+          "MedicalLab.Entity": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MedicalLab.ServiceInterface.dll": {}
@@ -5023,11 +5007,6 @@
       "path": "../MedicalLab.Entity/MedicalLab.Entity.csproj",
       "msbuildProject": "../MedicalLab.Entity/MedicalLab.Entity.csproj"
     },
-    "MedicalLab.Model/1.0.0": {
-      "type": "project",
-      "path": "../MedicalLab.Model/MedicalLab.Model.csproj",
-      "msbuildProject": "../MedicalLab.Model/MedicalLab.Model.csproj"
-    },
     "MedicalLab.Repository/1.0.0": {
       "type": "project",
       "path": "../MedicalLab.Repository/MedicalLab.Repository.csproj",
@@ -5048,7 +5027,6 @@
     ".NETCoreApp,Version=v3.1": [
       "MedicalLab.CommonService >= 1.0.0",
       "MedicalLab.Entity >= 1.0.0",
-      "MedicalLab.Model >= 1.0.0",
       "MedicalLab.Repository >= 1.0.0",
       "MedicalLab.RepositoryInterface >= 1.0.0",
       "MedicalLab.ServiceInterface >= 1.0.0",
@@ -5090,9 +5068,6 @@
             },
             "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
               "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
-            },
-            "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj": {
-              "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj"
             },
             "C:\\Gang\\MedicalLab\\MedicalLab.RepositoryInterface\\MedicalLab.RepositoryInterface.csproj": {
               "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.RepositoryInterface\\MedicalLab.RepositoryInterface.csproj"

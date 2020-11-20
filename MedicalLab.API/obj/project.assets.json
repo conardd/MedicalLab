@@ -1421,7 +1421,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0"
+          "MedicalLab.Entity": "1.0.0",
+          "MedicalLab.Service": "1.0.0",
+          "MedicalLab.ServiceInterface": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "compile": {
           "bin/placeholder/MedicalLab.Model.dll": {}
@@ -1435,7 +1438,6 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0",
           "MedicalLab.RepositoryInterface": "1.0.0",
           "MongoDB.Driver": "2.11.4"
         },
@@ -1450,8 +1452,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0"
+          "MedicalLab.Entity": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MedicalLab.RepositoryInterface.dll": {}
@@ -1466,7 +1467,6 @@
         "dependencies": {
           "MedicalLab.CommonService": "1.0.0",
           "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0",
           "MedicalLab.Repository": "1.0.0",
           "MedicalLab.RepositoryInterface": "1.0.0",
           "MedicalLab.ServiceInterface": "1.0.0",
@@ -1483,8 +1483,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0"
+          "MedicalLab.Entity": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MedicalLab.ServiceInterface.dll": {}
@@ -5237,6 +5236,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "MedicalLab.CommonService >= 1.0.0",
+      "MedicalLab.Entity >= 1.0.0",
       "MedicalLab.Model >= 1.0.0",
       "MedicalLab.Service >= 1.0.0",
       "MedicalLab.ServiceInterface >= 1.0.0",
@@ -5276,6 +5276,9 @@
           "projectReferences": {
             "C:\\Gang\\MedicalLab\\MedicalLab.CommonService\\MedicalLab.CommonService.csproj": {
               "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.CommonService\\MedicalLab.CommonService.csproj"
+            },
+            "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
+              "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
             },
             "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj": {
               "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj"

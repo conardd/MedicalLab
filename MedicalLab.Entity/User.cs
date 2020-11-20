@@ -31,7 +31,7 @@ namespace MedicalLab.Entity
         /// <summary>
         /// user roles
         /// </summary>
-        public string Roles { get; set; }        
+        public string Role { get; set; }        
         /// <summary>
         /// is user active
         /// </summary>

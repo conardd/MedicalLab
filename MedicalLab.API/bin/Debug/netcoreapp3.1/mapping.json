@@ -1,0 +1,12 @@
+{
+  "mapping": {
+    "services": {
+      "0": "ITestResultService, TestResultService",
+      "1": "IUserService, UserService"     
+    },
+	"repositories": {
+      "0": "ITestResultRepository,TestResultRepository",
+      "1": "IUsersRepository,UsersRepository"     
+    }
+  }
+}

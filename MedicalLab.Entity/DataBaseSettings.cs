@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MedicalLab.Model
+namespace MedicalLab.Entity
 {
     /// <summary>
     /// db connection info

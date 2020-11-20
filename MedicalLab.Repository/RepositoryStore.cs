@@ -1,4 +1,4 @@
-﻿using MedicalLab.Model;
+﻿using MedicalLab.Entity;
 using MedicalLab.RepositoryInterface;
 using System;
 using System.Collections.Generic;

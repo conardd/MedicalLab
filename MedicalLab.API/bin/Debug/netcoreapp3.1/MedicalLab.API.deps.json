@@ -25,6 +25,7 @@
       "MedicalLab.API/1.0.0": {
         "dependencies": {
           "MedicalLab.CommonService": "1.0.0",
+          "MedicalLab.Entity": "1.0.0",
           "MedicalLab.Model": "1.0.0",
           "MedicalLab.Service": "1.0.0",
           "MedicalLab.ServiceInterface": "1.0.0",
@@ -1196,7 +1197,10 @@
       },
       "MedicalLab.Model/1.0.0": {
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0"
+          "MedicalLab.Entity": "1.0.0",
+          "MedicalLab.Service": "1.0.0",
+          "MedicalLab.ServiceInterface": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "runtime": {
           "MedicalLab.Model.dll": {}
@@ -1208,7 +1212,6 @@
       "MedicalLab.Repository/1.0.0": {
         "dependencies": {
           "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0",
           "MedicalLab.RepositoryInterface": "1.0.0",
           "MongoDB.Driver": "2.11.4"
         },
@@ -1221,8 +1224,7 @@
       },
       "MedicalLab.RepositoryInterface/1.0.0": {
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0"
+          "MedicalLab.Entity": "1.0.0"
         },
         "runtime": {
           "MedicalLab.RepositoryInterface.dll": {}
@@ -1235,7 +1237,6 @@
         "dependencies": {
           "MedicalLab.CommonService": "1.0.0",
           "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0",
           "MedicalLab.Repository": "1.0.0",
           "MedicalLab.RepositoryInterface": "1.0.0",
           "MedicalLab.ServiceInterface": "1.0.0",
@@ -1250,8 +1251,7 @@
       },
       "MedicalLab.ServiceInterface/1.0.0": {
         "dependencies": {
-          "MedicalLab.Entity": "1.0.0",
-          "MedicalLab.Model": "1.0.0"
+          "MedicalLab.Entity": "1.0.0"
         },
         "runtime": {
           "MedicalLab.ServiceInterface.dll": {}

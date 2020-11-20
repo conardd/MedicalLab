@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MedicalLab.Entity\MedicalLab.Entity.csproj" />
-    <ProjectReference Include="..\MedicalLab.Model\MedicalLab.Model.csproj" />
   </ItemGroup>
 
 </Project>
