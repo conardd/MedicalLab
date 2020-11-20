@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using MedicalLab.Repository;
+using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace MedicalLab.Service
 {
@@ -13,11 +16,16 @@ namespace MedicalLab.Service
     {
 
         private IUsersRepository repo;
-        private DataBaseSettings settings;
-
-        public UserService(IRepositoryStore store)
+        // private DataBaseSettings settings;
+        /// <summary>
+        /// default constructor
+        /// </summary>
+        public UserService()
+        { }
+        public UserService(DataBaseSettings setting)
         {
-            repo = store.CreateRepository<IUsersRepository>();
+            //var store = new RepositoryStore(setting);
+            repo = new UserRepository(setting);
         }
 
         /// <summary>
@@ -61,6 +69,40 @@ namespace MedicalLab.Service
         public void Update(User user)
         {
             repo.Update(user);
-        }       
+        }
+
+        public ApiResponse Login(LoginModel login)
+        {
+            var result = new ApiResponse() { Result = true };
+            var user = repo.GetUserByName(login.UserName);
+#if DEBUG
+            user = new User() { UserName = login.UserName, Roles = "employee", Email = "tester@test.com", Password = login.Password , Active = true};
+#endif
+            result.Result = user != null && user.Password == login.Password && user.Active;
+            if (result.Result)
+                result.Value = generateJwtToken(user);
+            else
+                result.Message = "user is not valid";
+            return result;
+        }
+
+        private string generateJwtToken(User user)
+        {
+            // generate token that is valid for 7 days
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes("codechallengecodechallengecodechallenge");
+            var claims = new ClaimsIdentity(new[] { new Claim("email", user.Email),
+                                                    new Claim("roles",user.Roles ),
+                                                    new Claim("userName",user.UserName)});
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = claims,
+                Expires = DateTime.UtcNow.AddHours(2),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
     }
 }

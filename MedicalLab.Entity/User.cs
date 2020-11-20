@@ -36,5 +36,9 @@ namespace MedicalLab.Entity
         /// is user active
         /// </summary>
         public bool Active { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Email { get; set; }
     }
 }

@@ -7,3 +7,6 @@ C:\Gang\MedicalLab\MedicalLab.Model\obj\Debug\netcoreapp3.1\MedicalLab.Model.csp
 C:\Gang\MedicalLab\MedicalLab.Model\obj\Debug\netcoreapp3.1\MedicalLab.Model.dll
 C:\Gang\MedicalLab\MedicalLab.Model\obj\Debug\netcoreapp3.1\MedicalLab.Model.pdb
 C:\Gang\MedicalLab\MedicalLab.Model\obj\Debug\netcoreapp3.1\MedicalLab.Model.csprojAssemblyReference.cache
+C:\Gang\MedicalLab\MedicalLab.Model\bin\Debug\netcoreapp3.1\MedicalLab.Entity.dll
+C:\Gang\MedicalLab\MedicalLab.Model\bin\Debug\netcoreapp3.1\MedicalLab.Entity.pdb
+C:\Gang\MedicalLab\MedicalLab.Model\obj\Debug\netcoreapp3.1\MedicalLab.Model.csproj.CopyComplete

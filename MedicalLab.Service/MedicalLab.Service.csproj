@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MedicalLab.CommonService\MedicalLab.CommonService.csproj" />
     <ProjectReference Include="..\MedicalLab.Entity\MedicalLab.Entity.csproj" />
     <ProjectReference Include="..\MedicalLab.Model\MedicalLab.Model.csproj" />

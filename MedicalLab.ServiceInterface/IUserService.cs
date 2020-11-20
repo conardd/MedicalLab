@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using MedicalLab.Entity;
+using MedicalLab.Model;
 
 namespace MedicalLab.ServiceInterface
 {
@@ -32,5 +33,11 @@ namespace MedicalLab.ServiceInterface
         /// </summary>
         /// <param name="user"></param>
         void Update(User user);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        ApiResponse Login(LoginModel user);
     }
 }

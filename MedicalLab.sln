@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalLab.ServiceInterface
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalLab.Service", "MedicalLab.Service\MedicalLab.Service.csproj", "{243A17DB-F351-4002-93AF-CABC01AD1B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalLab.Entity", "MedicalLab.Entity\MedicalLab.Entity.csproj", "{D1952FFB-528E-4D68-A4CC-7FA3CD0BCA4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalLab.Entity", "MedicalLab.Entity\MedicalLab.Entity.csproj", "{D1952FFB-528E-4D68-A4CC-7FA3CD0BCA4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{97AEF201-C5E7-4A4A-8FF0-0D86CB319700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalLab.Service.UnitTest", "MedicalLab.Service.UnitTest\MedicalLab.Service.UnitTest.csproj", "{669CFD0F-D7CB-4154-AF6E-D376D3DF2AA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,9 +61,16 @@ Global
 		{D1952FFB-528E-4D68-A4CC-7FA3CD0BCA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1952FFB-528E-4D68-A4CC-7FA3CD0BCA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1952FFB-528E-4D68-A4CC-7FA3CD0BCA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669CFD0F-D7CB-4154-AF6E-D376D3DF2AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669CFD0F-D7CB-4154-AF6E-D376D3DF2AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669CFD0F-D7CB-4154-AF6E-D376D3DF2AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669CFD0F-D7CB-4154-AF6E-D376D3DF2AA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{669CFD0F-D7CB-4154-AF6E-D376D3DF2AA5} = {97AEF201-C5E7-4A4A-8FF0-0D86CB319700}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FE396E3-356F-43DC-BF63-AD1693495A15}

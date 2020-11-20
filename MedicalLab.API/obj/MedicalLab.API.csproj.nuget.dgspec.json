@@ -53,6 +53,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Unity.Container": {
+              "target": "Package",
+              "version": "[5.11.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -216,7 +226,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
+                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -407,6 +421,9 @@
             "projectReferences": {
               "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
+              },
+              "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj": {
+                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj"
               }
             }
           }
@@ -493,6 +510,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

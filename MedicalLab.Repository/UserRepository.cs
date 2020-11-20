@@ -15,6 +15,12 @@ namespace MedicalLab.Repository
     {   
         private const string CollectionName = "users";
         private readonly IMongoCollection<User> users;
+        /// <summary>
+        /// default constructor
+        /// </summary>
+        public UserRepository()
+        { }
+
         public UserRepository(DataBaseSettings setting)
         {
             var client = new MongoClient(setting.ConnectionString);
