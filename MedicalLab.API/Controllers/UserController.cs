@@ -55,9 +55,9 @@ namespace MedicalLab.API.Controllers
         //[Authorize]
         [HttpGet]
         [Route("[controller]")]
-        public ApiResponse GetUsers(string role = null)
+        public ActionResult  GetUsers(string role = null)
         {            
-            return userModel.GetUsers(role);
+            return  Ok(userModel.GetUsers(role));
         }
 
         /// <summary>

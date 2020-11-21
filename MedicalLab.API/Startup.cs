@@ -23,7 +23,7 @@ using Unity;
 namespace MedicalLab.API
 {
     public class Startup
-    {  
+    {        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -57,6 +57,10 @@ namespace MedicalLab.API
             }
 
             app.UseRouting();
+            app.UseCors(x => x
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
 
             app.UseAuthorization();
             app.UseResponseCompression();
