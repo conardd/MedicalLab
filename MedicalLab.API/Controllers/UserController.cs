@@ -41,9 +41,9 @@ namespace MedicalLab.API.Controllers
         [HttpGet]
         [Route("[controller]/login")]
         public ApiResponse Login(string userName, string password)
-        {   
-            userModel.UserName = userName;
-            userModel.Password = password;            
+        {
+            userModel.User.UserName = userName;
+            userModel.User.Password = password;
             return userModel.Login();
         }
 

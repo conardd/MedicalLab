@@ -18,21 +18,18 @@ namespace MedicalLab.Model
         private readonly IUserService Service;
         //private readonly IServiceProvider provider;
         
-
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="service"></param>
         public LoginModel(IUserService service)
         {
             Service = service;
-            //service = userService;
+            this.User = new User();            
         }
         /// <summary>
         /// 
         /// </summary>
-        public string UserName { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string Password { get; set; }
-        
         public User User { get; set; }
         
         /// <summary>
@@ -42,7 +39,7 @@ namespace MedicalLab.Model
         public ApiResponse Login()
         { 
             var result = new ApiResponse();
-            var user = Service.Login(this.UserName, this.Password);
+            var user = Service.Login(this.User.UserName, this.User.Password);
             if (user == null)
             {
                 result.Result = false;
@@ -80,6 +77,10 @@ namespace MedicalLab.Model
            
             return result;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public ApiResponse Add()
         {   
             var result = new ApiResponse();
