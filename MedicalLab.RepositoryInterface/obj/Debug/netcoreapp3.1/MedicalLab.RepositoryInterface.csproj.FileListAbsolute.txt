@@ -2,9 +2,7 @@ C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\bin\Debug\netcoreapp3.1\Medica
 C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\bin\Debug\netcoreapp3.1\MedicalLab.RepositoryInterface.dll
 C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\bin\Debug\netcoreapp3.1\MedicalLab.RepositoryInterface.pdb
 C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\bin\Debug\netcoreapp3.1\MedicalLab.Entity.dll
-C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\bin\Debug\netcoreapp3.1\MedicalLab.Model.dll
 C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\bin\Debug\netcoreapp3.1\MedicalLab.Entity.pdb
-C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\bin\Debug\netcoreapp3.1\MedicalLab.Model.pdb
 C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\obj\Debug\netcoreapp3.1\MedicalLab.RepositoryInterface.csprojAssemblyReference.cache
 C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\obj\Debug\netcoreapp3.1\MedicalLab.RepositoryInterface.AssemblyInfoInputs.cache
 C:\Gang\MedicalLab\MedicalLab.RepositoryInterface\obj\Debug\netcoreapp3.1\MedicalLab.RepositoryInterface.AssemblyInfo.cs

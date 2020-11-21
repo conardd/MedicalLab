@@ -148,6 +148,12 @@
             "projectReferences": {
               "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
+              },
+              "C:\\Gang\\MedicalLab\\MedicalLab.ServiceInterface\\MedicalLab.ServiceInterface.csproj": {
+                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.ServiceInterface\\MedicalLab.ServiceInterface.csproj"
+              },
+              "C:\\Gang\\MedicalLab\\MedicalLab.Service\\MedicalLab.Service.csproj": {
+                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Service\\MedicalLab.Service.csproj"
               }
             }
           }
@@ -160,6 +166,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -207,9 +219,6 @@
             "projectReferences": {
               "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
-              },
-              "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj": {
-                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj"
               }
             }
           }
@@ -269,9 +278,6 @@
             "projectReferences": {
               "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
-              },
-              "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj": {
-                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj"
               },
               "C:\\Gang\\MedicalLab\\MedicalLab.RepositoryInterface\\MedicalLab.RepositoryInterface.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.RepositoryInterface\\MedicalLab.RepositoryInterface.csproj"
@@ -432,9 +438,6 @@
             "projectReferences": {
               "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
-              },
-              "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj": {
-                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj"
               }
             }
           }
@@ -497,9 +500,6 @@
               },
               "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Entity\\MedicalLab.Entity.csproj"
-              },
-              "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj": {
-                "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.Model\\MedicalLab.Model.csproj"
               },
               "C:\\Gang\\MedicalLab\\MedicalLab.RepositoryInterface\\MedicalLab.RepositoryInterface.csproj": {
                 "projectPath": "C:\\Gang\\MedicalLab\\MedicalLab.RepositoryInterface\\MedicalLab.RepositoryInterface.csproj"

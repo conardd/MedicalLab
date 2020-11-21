@@ -1,5 +1,4 @@
 ﻿using MedicalLab.Entity;
-using MedicalLab.Model;
 using MedicalLab.RepositoryInterface;
 using MongoDB.Driver;
 using System;

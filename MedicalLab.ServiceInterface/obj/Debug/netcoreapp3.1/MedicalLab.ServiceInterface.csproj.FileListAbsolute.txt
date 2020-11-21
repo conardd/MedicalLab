@@ -10,5 +10,3 @@ C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLa
 C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.csproj.CopyComplete
 C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.dll
 C:\Gang\MedicalLab\MedicalLab.ServiceInterface\obj\Debug\netcoreapp3.1\MedicalLab.ServiceInterface.pdb
-C:\Gang\MedicalLab\MedicalLab.ServiceInterface\bin\Debug\netcoreapp3.1\MedicalLab.Model.dll
-C:\Gang\MedicalLab\MedicalLab.ServiceInterface\bin\Debug\netcoreapp3.1\MedicalLab.Model.pdb

@@ -8,6 +8,10 @@ C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\MedicalLa
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\MedicalLab.Service.UnitTest.pdb
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\DnsClient.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -25,6 +29,7 @@ C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -117,7 +122,3 @@ C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\obj\Debug\netcoreapp3.1\MedicalLa
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\obj\Debug\netcoreapp3.1\MedicalLab.Service.UnitTest.dll
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\obj\Debug\netcoreapp3.1\MedicalLab.Service.UnitTest.pdb
 C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\obj\Debug\netcoreapp3.1\MedicalLab.Service.UnitTest.genruntimeconfig.cache
-C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Gang\MedicalLab\MedicalLab.Service.UnitTest\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

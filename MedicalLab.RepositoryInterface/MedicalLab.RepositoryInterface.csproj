@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MedicalLab.Entity\MedicalLab.Entity.csproj" />
-    <ProjectReference Include="..\MedicalLab.Model\MedicalLab.Model.csproj" />
+    <ProjectReference Include="..\MedicalLab.Entity\MedicalLab.Entity.csproj" />    
   </ItemGroup>
 
 </Project>

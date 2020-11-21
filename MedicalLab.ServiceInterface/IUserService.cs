@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using MedicalLab.Entity;
-using MedicalLab.Model;
 
 namespace MedicalLab.ServiceInterface
 {
@@ -36,8 +35,15 @@ namespace MedicalLab.ServiceInterface
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        User Login(string userName, string password);
+        /// <summary>
+        /// 
+        /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        ApiResponse Login(LoginModel user);
+        string GenerateJwtToken(User user);
     }
 }
