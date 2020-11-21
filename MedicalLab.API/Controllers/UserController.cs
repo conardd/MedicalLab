@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MedicalLab.Entity;
 using MedicalLab.Model;
 using MedicalLab.ServiceInterface;
 using Microsoft.AspNetCore.Authorization;
@@ -20,6 +21,7 @@ namespace MedicalLab.API.Controllers
     {
 
         private readonly IUserService Service;
+        protected LoginModel userModel;
         /// <summary>
         /// 
         /// </summary>
@@ -27,6 +29,7 @@ namespace MedicalLab.API.Controllers
         public UserController(IUserService service)
         {
             Service = service;
+            userModel = new LoginModel(Service);
         }
         
                 /// <summary>
@@ -38,11 +41,9 @@ namespace MedicalLab.API.Controllers
         [HttpGet]
         [Route("[controller]/login")]
         public ApiResponse Login(string userName, string password)
-        {
-            //LoginModel payload = LoginModel.Create();
-            var userModel = new LoginModel(Service) { UserName = userName, Password = password };
-
-            //return null;
+        {   
+            userModel.UserName = userName;
+            userModel.Password = password;            
             return userModel.Login();
         }
 
@@ -53,11 +54,9 @@ namespace MedicalLab.API.Controllers
         /// <returns></returns>
         //[Authorize]
         [HttpGet]
-        [Route("[controller]/GtalAll")]
+        [Route("[controller]")]
         public ApiResponse GetUsers(string role = null)
-        {
-            var userModel = new LoginModel(Service);
-
+        {            
             return userModel.GetUsers(role);
         }
 
@@ -67,23 +66,24 @@ namespace MedicalLab.API.Controllers
         /// <returns></returns>
         //[Authorize]
         [HttpPost]
-        [Route("[controller]/AddUser")]
-        public ApiResponse AddUser()
+        [Route("[controller]/Add")]
+        public ApiResponse AddUser([FromBody]User payload)
         {
-            return null;
+            userModel.User = payload;
+            
+            return userModel.Add();            
         }
         /// <summary>
         /// new customer register
         /// </summary>
         /// <param name="id"></param>
-        /// <param name="value"></param>
-        // PUT api/<UserController>/5
-        //[Authorize]
+        /// <param name="value"></param>          
         [HttpPost]
         [Route("[controller]")]
-        public ApiResponse Register(int id, [FromBody] string value)
+        public ApiResponse Register([FromBody] string value)
         {
             return null;
         }
     }
+    
 }

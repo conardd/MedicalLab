@@ -7,6 +7,7 @@ using MongoDB.Bson;
 
 namespace MedicalLab.Entity
 {
+    [Serializable]
     /// <summary>
     /// user
     /// </summary>

@@ -1,8 +1,11 @@
-﻿using MedicalLab.ServiceInterface;
+﻿using MedicalLab.Entity;
+using MedicalLab.ServiceInterface;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 
 namespace MedicalLab.Model
@@ -29,18 +32,9 @@ namespace MedicalLab.Model
         /// 
         /// </summary>
         public string Password { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string Email { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string FirstName { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string LastName { get; set; }
+        
+        public User User { get; set; }
+        
         /// <summary>
         /// 
         /// </summary>
@@ -84,6 +78,22 @@ namespace MedicalLab.Model
                 result.Message = ex.ToString();
             }
            
+            return result;
+        }
+        public ApiResponse Add()
+        {   
+            var result = new ApiResponse();
+            try
+            {
+                var user = this.User;
+                Service.Add(user);
+                result.Result = true;
+                result.Value = user;
+            }
+            catch (Exception ex)
+            {
+                result.Message = ex.ToString();
+            }
             return result;
         }
     }
